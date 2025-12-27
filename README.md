@@ -26,7 +26,7 @@ Step-by-step demo instructions:
 5. Trust recovers
 
 ## Production vs Simulation Boundary
-(VERY IMPORTANT – protects you)
+
 - Simulation used for AI failures
 - Real Datadog ingestion
 - Deterministic trust logic
