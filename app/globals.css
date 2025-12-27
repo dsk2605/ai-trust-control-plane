@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+  }
+ 
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+/* The Technical Dot Pattern */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle, #cbd5e1 1px, transparent 1px);
+  mask-image: linear-gradient(to bottom, white 80%, transparent 100%);
+}
